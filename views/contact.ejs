@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="author">
+        <h1 class="author_heading">Contact Me!</h1>
+        <p class="author_body">I would love to hear your feedback on anything and everything you have seen so far</p>
+    </div>
+
+    <video autoplay width="970" class="hero-image">
+        <source src="/video/contact.mp4" type="video/mp4" />
+    </video>
+    <h2>Leave a message</h2>
+    <form action="/contact" method="POST">
+
+        <label for="title"><b>Hi (insert your name)</b></label>
+        <input type="text" placeholder="Your Name" name="title">
+
+        <label for="body"><b>What would you like me to know?</b></label>
+        <textarea name="body" cols="50" rows="10"></textarea>
+
+        <input type="submit" value="Send" class="btn">
+
+    </form>
+</body>
+</html>
