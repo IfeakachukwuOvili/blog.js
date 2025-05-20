@@ -6,6 +6,15 @@
     <title>Contact</title>
 </head>
 <body>
+    <% if (typeof message !== 'undefined' && message && typeof name !== 'undefined' && name) { %>
+    <div class="alert alert-success" style="background: #d4edda; color: #155724; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+        Thank you <%= name %> for sending me a message, I would respond via a post!
+    </div>
+<% } else if (typeof message !== 'undefined' && message) { %>
+    <div class="alert alert-success" style="background: #d4edda; color: #155724; padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+        <%= message %>
+    </div>
+<% } %>
     <div class="author">
         <h1 class="author_heading">Contact Me!</h1>
         <p class="author_body">I would love to hear your feedback on anything and everything you have seen so far</p>

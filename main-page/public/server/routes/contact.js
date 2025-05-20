@@ -4,7 +4,7 @@ const Contact = require('../models/Contact'); // Import the Contact model
 
 // Example GET route to render the form
 router.get('/contact', (req, res) => {
-    res.render('contact', { data: null });
+    res.render('contact', { data: null, currentRoute: '/contact' });
 });
 
 // Example POST route to handle form submission
@@ -17,7 +17,7 @@ router.post('/contact', async (req, res) => {
     try {
         // Save the new contact message to the database
         await newContact.save();
-        res.send('Form submission received and saved');
+        res.render('contact', { data: null, message: 'Form submission received and saved!', name: req.body.title, currentRoute: '/contact' });
     } catch (error) {
         res.status(500).send('Error saving data');
     }

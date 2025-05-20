@@ -8,8 +8,12 @@ const jwt = require('jsonwebtoken');
 const adminLayout ='../views/layouts/admin';
 const jwtSecret = process.env.JWT_SECRET;
 
-
-
+// Show the admin registration page
+router.get('/register', (req, res) => {
+    res.render('admin/register', {
+        layout: adminLayout
+    });
+});
 
 /**
  * 

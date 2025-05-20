@@ -1,3 +1,9 @@
+<% if (typeof message !== 'undefined' && message) { %>
+  <div style="background: #d4edda; color: #155724; padding: 10px; border-radius: 5px; margin-bottom: 20px; text-align:center;">
+      <%= message %>
+  </div>
+<% } %>
+
 <div class="admin-title">
     <h2>Posts</h2>
     <a href="/add-post" class="button">+ Add New</a>
