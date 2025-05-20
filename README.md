@@ -5,5 +5,5 @@ Built using:
 1. Node.js (because backend ≠ boring)
 2. MongoDB (via a free cluster—budget dev life)
 
-This version includes some personal modifications, but full credit to the original tutorial: Make a Blog with Raddy
+This version includes some personal modifications, but full credit to the original tutorial: Make a Blog with Raddy (https://youtu.be/-foo92lFIto?si=KfH707yTWhpnzp6z)
 
