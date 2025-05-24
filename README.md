@@ -8,7 +8,7 @@ Built using:
 This version includes some personal modifications, but full credit to the original tutorial: Make a Blog with Raddy (https://youtu.be/-foo92lFIto?si=KfH707yTWhpnzp6z)
 
 
-#### I advice you mut your device if you do not like sounds :)
+#### I advice you mute your device if you do not like sounds :)
 
 
 ## Content Management Side:
